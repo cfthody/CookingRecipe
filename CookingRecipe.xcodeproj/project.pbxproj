@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FE77054F239C1C45006F1D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77054E239C1C45006F1D99 /* AppDelegate.swift */; };
-		FE770551239C1C45006F1D99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE770550239C1C45006F1D99 /* SceneDelegate.swift */; };
 		FE770553239C1C45006F1D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE770552239C1C45006F1D99 /* ViewController.swift */; };
 		FE770556239C1C45006F1D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE770554239C1C45006F1D99 /* Main.storyboard */; };
 		FE770559239C1C45006F1D99 /* CookingRecipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE770557239C1C45006F1D99 /* CookingRecipe.xcdatamodeld */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		FE77054B239C1C45006F1D99 /* CookingRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE77054E239C1C45006F1D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE770550239C1C45006F1D99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE770552239C1C45006F1D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE770555239C1C45006F1D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE770558239C1C45006F1D99 /* CookingRecipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CookingRecipe.xcdatamodel; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				FE77054E239C1C45006F1D99 /* AppDelegate.swift */,
-				FE770550239C1C45006F1D99 /* SceneDelegate.swift */,
 				FE770552239C1C45006F1D99 /* ViewController.swift */,
 				FE770554239C1C45006F1D99 /* Main.storyboard */,
 				FE77055A239C1C48006F1D99 /* Assets.xcassets */,
@@ -144,7 +141,6 @@
 				FE770559239C1C45006F1D99 /* CookingRecipe.xcdatamodeld in Sources */,
 				FE770553239C1C45006F1D99 /* ViewController.swift in Sources */,
 				FE77054F239C1C45006F1D99 /* AppDelegate.swift in Sources */,
-				FE770551239C1C45006F1D99 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
