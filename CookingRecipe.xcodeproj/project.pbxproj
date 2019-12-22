@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE24C8A223A102BA0013E196 /* ReceitaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE24C8A123A102BA0013E196 /* ReceitaTableViewController.swift */; };
+		FE24C8A423A102D30013E196 /* CategoriaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE24C8A323A102D20013E196 /* CategoriaTableViewController.swift */; };
 		FE77054F239C1C45006F1D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77054E239C1C45006F1D99 /* AppDelegate.swift */; };
 		FE770553239C1C45006F1D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE770552239C1C45006F1D99 /* ViewController.swift */; };
 		FE770556239C1C45006F1D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE770554239C1C45006F1D99 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE24C8A123A102BA0013E196 /* ReceitaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaTableViewController.swift; sourceTree = "<group>"; };
+		FE24C8A323A102D20013E196 /* CategoriaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaTableViewController.swift; sourceTree = "<group>"; };
 		FE77054B239C1C45006F1D99 /* CookingRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE77054E239C1C45006F1D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE770552239C1C45006F1D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				FE77054E239C1C45006F1D99 /* AppDelegate.swift */,
 				FE770552239C1C45006F1D99 /* ViewController.swift */,
+				FE24C8A323A102D20013E196 /* CategoriaTableViewController.swift */,
+				FE24C8A123A102BA0013E196 /* ReceitaTableViewController.swift */,
 				FE770554239C1C45006F1D99 /* Main.storyboard */,
 				FE77055A239C1C48006F1D99 /* Assets.xcassets */,
 				FE77055C239C1C48006F1D99 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE24C8A423A102D30013E196 /* CategoriaTableViewController.swift in Sources */,
 				FE770559239C1C45006F1D99 /* CookingRecipe.xcdatamodeld in Sources */,
 				FE770553239C1C45006F1D99 /* ViewController.swift in Sources */,
+				FE24C8A223A102BA0013E196 /* ReceitaTableViewController.swift in Sources */,
 				FE77054F239C1C45006F1D99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

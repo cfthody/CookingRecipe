@@ -9,15 +9,15 @@
         <attribute name="unidade" optional="YES" attributeType="String"/>
     </entity>
     <entity name="Receita" representedClassName="Receita" syncable="YES" codeGenerationType="class">
-        <attribute name="descricao" optional="YES" attributeType="String"/>
+        <attribute name="duracao" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="nome" optional="YES" attributeType="String"/>
-        <attribute name="tempo" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="preparacao" optional="YES" attributeType="String"/>
         <relationship name="categoria" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Categoria"/>
         <relationship name="ingredientes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ingrediente"/>
     </entity>
     <elements>
-        <element name="Ingrediente" positionX="302.484375" positionY="-327.47265625" width="128" height="88"/>
         <element name="Categoria" positionX="-133.4921875" positionY="-321.70703125" width="128" height="58"/>
+        <element name="Ingrediente" positionX="302.484375" positionY="-327.47265625" width="128" height="88"/>
         <element name="Receita" positionX="79.5546875" positionY="-337.83203125" width="128" height="118"/>
     </elements>
 </model>
